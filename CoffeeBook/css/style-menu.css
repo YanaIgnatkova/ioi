@@ -1,0 +1,86 @@
+@font-face {
+font-family: "Vremena Medium Italic"; 
+src: url("fonts/Vremena Medium Italic.ttf") format("truetype"); 
+}
+.bt-start{
+    font-family: "Vremena Medium Italic"; 
+    background-color: #fff;
+    color: brown;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 35px;
+    margin-left: 320px;
+    margin-bottom: 50px;
+}
+button:focus {
+  outline: none;
+}
+.coffee{
+    float: left;
+    margin-right: 170px;
+    margin-left: 30px;
+}
+.milk{  
+    float: left;
+}
+.kori{
+    float: right;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.sweet{
+   float: left;
+   margin-left: 20px; 
+   margin-top: 130px;
+}
+.cup{
+    float: left; 
+    margin-left: 146.6px; 
+} 
+.tea{
+    float: right;
+    margin-right: 20px;
+    margin-top: 100px;
+}
+.cup-and{
+    margin-top: 70px;
+}
+.menu-components {
+  position: relative;
+}
+.menu-components .btn {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: brown;
+  font-size: 26px;
+  padding: 4px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 35px;
+}
+.menu-components .btn:hover {
+  background-color:rgb(232, 181, 118);
+}         
+.fix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0px;
+}     
+table{  border-left: 2px solid brown;
+   border-right: 2px solid brown;
+   margin-bottom: 10px;
+   width: 100%;
+}
+.name-coffee{
+    background-color: rgb(232, 181, 118);
+    width: 50%;   
+}
+.volume, .coffee-price{
+   text-align: center;   
+}

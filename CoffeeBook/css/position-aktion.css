@@ -1,0 +1,62 @@
+@font-face {
+font-family: "Crimson Text"; 
+src: url("fonts/Crimson Text.ttf") format("truetype"); 
+} 
+@font-face {
+font-family: "Merriweather Bold"; 
+src: url("fonts/Merriweather Bold.ttf") format("truetype"); 
+} 
+@font-face {
+font-family: "Vremena Medium Italic"; 
+src: url("fonts/Vremena Medium Italic.ttf") format("truetype"); 
+}
+.breadcrumbs{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+div li {
+    margin: 40px;   
+}
+img .im-aktion{
+   float:left;
+   margin: 10px;
+   min-height: 70px; 
+}
+div .aktion{
+    float:right;
+    width:350px ;
+    min-height: 70px;  
+}
+h3{
+    font-size: 24px;
+    text-align: center;
+    font-family: "Vremena Medium Italic";
+    margin: 2px; 
+}
+.head-aktion{
+    width: 800px;
+    text-align: center;
+    margin: 50px;
+    font-family: inherit;
+    font-size: 24px;
+    font-family: "Crimson Text";  
+}
+.aktion p {
+    font-family: "Crimson Text";
+    text-align: justify;
+    font-size: 18px;
+}
+.aktion-time{
+    font-family: "Merriweather Bold";  
+    font-size: 14px;
+    display: block;
+    float:right;
+    margin-top: 15px;  
+}
+.clearfix-a::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0px;
+    background-color: beige; 
+}

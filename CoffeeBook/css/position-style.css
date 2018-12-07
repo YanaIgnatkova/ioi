@@ -1,0 +1,111 @@
+html, body {
+    margin: 0;
+    padding: 0;  
+}
+.main-header{
+    min-height: 70px;
+}
+.center{
+    width: 900px;  
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 10px;
+    background-color: rgb(232, 181, 118);   
+}
+.logo{
+    float:left;
+    margin: 10px;
+    margin-left:65px;
+    min-height: 70px;
+}
+.main-nav{
+    float:right;
+    width:650px ;
+    min-height: 70px;
+}
+.main-nav ul{    
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-top: 78px;
+}
+.main-nav li {
+    width: 145px;
+    height: 40px;
+    list-style-type: none;
+    float:left;
+    margin-left: 5px;
+}
+.main-nav a {
+    display: block;
+    padding: 10px 20px;
+}
+.information{
+    margin: 15px;
+}
+.features{
+    margin: 50px;
+    width: 800px;
+    margin-bottom: 350px;
+}
+b{
+   align-content: center; 
+}
+.img-coffee{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.features-1{   
+    float: left;
+    width: 220px;
+    margin-right: 70px;
+    min-height: 70px;  
+}
+.features-2{
+    float: left;
+    width: 220px;
+    margin-right: 70px; 
+    min-height: 70px; 
+}
+.features-3{
+    float: right;
+    width: 220px;
+    min-height: 60px;
+}
+.footer-adress{
+    float: left;
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 40px;
+   
+}
+.footer-social{
+    float: left;
+    width: 250px;
+    min-height: 40px;
+}
+ .footer-autor{
+    float: right;
+    width: 200px;
+    margin-right: 30px;
+    margin-left: 40px;    
+}
+.social-btm{
+   margin-right: 20px;    
+}
+.social{
+   margin-left: 20px;
+}
+.fix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0px; 
+}

@@ -1,0 +1,628 @@
+<DOCTYPE html>
+<html>
+    <head>
+       <meta charset="utf-8">
+        <title>Меню | Кофейня-библиотека "CoffeeBOOK"</title>  
+        <meta name="description" content="Официальный сайт кофейни-библиотеки CoffeeBOOK. Окунитесь в ламповую атмосферу нашей кофейни и насладись самыми интересными книгами из нашей библиотеки"/>
+        <meta name="keywords" content="Кофейня-библиотека CoffeeBOOK, кофе, кофейня, кофейня-библиотека, меню, напитки, десерты"/>
+        
+       <link rel="stylesheet" href="css/position-style.css" type="text/css"/>
+       <link rel="stylesheet" href="css/diz-style.css" type="text/css"/> 
+       <link rel="stylesheet" href="css/style-menu.css" type="text/css"/>
+       <link rel="stylesheet" href="css/breadcrumbs.css" type="text/css"/>
+        
+        <link rel="stylesheet" href="css/style-modal.css">
+         <script type="text/javascript" src="js/jquery.min.js"></script>
+     
+        
+    </head>
+    <body>
+        <header class="center main-header clearfix">
+            <div class="logo">
+                <img src="images/logo-book.png" width="151px" height="114px" alt="Логотип кофейни-библиотеки CoffeeBOOK" >
+               </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="menu.html">Меню</a></li>
+                    <li><a href="aktion.html">Акции</a></li>
+                    <li><a href="read.html">Почитаем?</a></li>
+                </ul>    
+               </nav>  
+            </header>
+        
+        <main class="center clearfix">
+            <div class="breadcrumbs">
+                 <ul id="breadcrumbs">
+                     <li><a href="index.html">Главная</a></li>
+                     <li><a href="menu.html" class="current">Меню</a></li>
+                    </ul>
+                </div>
+             <button class="bt-start" width="150px" height="30px" onclick="poLin()">Нажмите для запуска меню</button>
+             <div>
+               <div class="fix">
+                   <div class="menu-components coffee coffee-animate">
+                       <img src="images/menu/coffee-corn.png" width="174,6px" height="Летящие кофейные зёрна" title="Летящие кофейные зёрна"  >
+                       <button class="btn book-1"><b>+</b></button>
+                   </div>
+                   <div class="menu-components milk milk-animate">
+                       <img src="images/menu/milk.png" width="129,4x" height="225,6px" title="Летящее молоко" alt="Летящее молоко" >
+                       <button class="btn book-2"><b>+</b></button>
+                   </div>
+                   <div class="menu-components kori kori-animate">
+                       <img src="images/menu/kori.png" width="185,7px" height="155,1px" title="Летящие специи" alt="Летящие специи">
+                        <button class="btn book-3"><b>+</b></button>
+                   </div>
+               </div> 
+               <div class="fix cup-and">
+                      <div class="menu-components sweet sweet-animate">
+                          <img src="images/menu/swits.png" width="100px" height="85px" title="Шоколадная конфета" alt="Шоколадная конфета">
+                          <button class="btn book-4"><b>+</b></button>
+                      </div>
+                 
+                      <div class="cup">
+                            <img  src="images/menu/cup3.png" width="338,8px" height="229,4px" title="Чашка с кофе" alt="Чашка с кофе">
+                      </div>                 
+                      <div class="menu-components tea tea-animate">
+                          <img  src="images/menu/tea.png" width="128px" height="128px" title="Листья чая" alt="Листья чая" > 
+                          <button class="btn book-5"><b>+</b></button>
+                      </div> 
+                 </div>            
+            </div> 
+            <div class="main-menu">
+                <section class="menu-coffee-content">
+                    <div class="modal-overlay modal-overlay-1">
+                    <div class="modal modal-1">
+                            <a class="close-modal close-modal-1">
+                            <svg viewBox="0 0 20 20">
+                                <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                            </svg>
+                        </a>
+                        <div class="modal-content modal-content-1 " >
+                        <h5>Чёрный кофе  </h5>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Американо</td>
+                                    <td class="volume">160мл</td>
+                                    <td  class="volume">350мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Просто чёрный кофе. Самый известный классический рецепт, который любим всеми и сейчас. </td>
+                                    <td class="coffee-price">3p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                             <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Лонг Блэк</td>
+                                    <td class="volume">200мл</td>
+                                    <td  class="volume">350мл</td>
+                                    <td  class="volume">400мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Крепкий чёрный кофе. Все традиции кофеварения собрались в этом напитке. Это стоит попробовать!</td>
+                                    <td class="coffee-price">3p</td>
+                                    <td class="coffee-price">4p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                             <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Экспрессо</td>
+                                    <td class="volume">30мл</td>
+                                    <td  class="volume">60мл</td>
+                                    <td  class="volume">90мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Маленький по объёму, но очень крепкий по вкусу.Этот напиток то, что нужно, чтобы взбодиться и начать новый день.</td>
+                                    <td class="coffee-price">3.50p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">На песке (эксклюзив)</td>
+                                    <td class="volume">50мл</td>
+                                    <td  class="volume">100мл</td>
+                                    <td  class="volume">200мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Приготовлен в джезве по восточной рецептуре. Есть классическая и острая версии. Этот напиток готорят только у нас и только из самых свежих зёрен.</td>
+                                    <td class="coffee-price">5p</td>
+                                    <td class="coffee-price">6p</td>
+                                    <td class="coffee-price">7p</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+                    
+                </section>
+                <section class="menu-milk-coffee-content">
+                    <div class="modal-overlay modal-overlay-2">
+                    <div class="modal modal-2">
+    
+                        <a class="close-modal close-modal-2">
+                            <svg viewBox="0 0 20 20">
+                                <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                            </svg>
+                        </a>
+
+                        <div class="modal-content modal-content-2">
+                        <h5>Молочный кофе </h5>
+                           
+                        <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Капучино</td>
+                                    <td class="volume">165мл</td>
+                                    <td  class="volume">350мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Кофе со вспененным молоком и лёгкими нотками корицы. С чего же ещё начать утро? </td>
+                                    <td class="coffee-price">3.50p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                             <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Латте</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">375мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Лёгкий кофе с молоком. Самый традиционный молочный кофе.</td>
+                                    <td class="coffee-price">3.50p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                             <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Флэт Уайт</td>
+                                    <td class="volume">100мл</td>
+                                    <td  class="volume">200мл</td>
+                                    <td  class="volume">300мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Крепкий кофе со вспененным молоком. Этот напиток - дуэт противоположностей. Оцените его!</td>
+                                    <td class="coffee-price">4p</td>
+                                    <td class="coffee-price">5p</td>
+                                    <td class="coffee-price">6p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Мокко</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">350мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Лёгкий кофе с горячим шоколадом и молочной пенкой. Кофе или молоко? чего больше в этом напитке? Неважно, ведь это  божественное сочетание. </td>
+                                    <td class="coffee-price">3p</td>
+                                    <td class="coffee-price">4p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Моккачино</td>
+                                    <td class="volume">200мл</td>
+                                    <td  class="volume">300мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Крепкий кофе с горячим шоколадом, который удивит всех своим необычайным вкусом. Кофе + Шоколад = это надо попробовать!</td>
+                                    <td class="coffee-price">4p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table> 
+                    </div>
+                    </div>
+                </div>
+                </section>
+                <section class="menu-kori-coffee-content">
+                    <div class="modal-overlay modal-overlay-3">
+                    <div class="modal modal-3">
+    
+                    <a class="close-modal close-modal-3">
+                        <svg viewBox="0 0 20 20">
+                            <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                        </svg>
+                        </a>
+
+                        <div class="modal-content modal-content-3">
+                        <h5>Особый кофе</h5>
+                        <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Раф</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">375мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Нежный коктейль из кофе, сливок и сиропа. Только настоящие эстеты понимают всю изысканность этого напитка.</td>
+                                    <td class="coffee-price">3.50p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                             <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Гляссе</td>
+                                    <td class="volume">160мл</td>
+                                    <td  class="volume">350мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Этот напиток поистине контраст горячего кофе и мороженного. Этот вкус надолго останется в вашей памяти и будет манить вас сново и свново.</td>
+                                    <td class="coffee-price">3.50p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                             <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Итальяно</td>
+                                    <td class="volume">200мл</td>
+                                    <td  class="volume">375мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Густой холодный кофе с мороженным и корицей</td>
+                                    <td class="coffee-price">4p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">6p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Бамбл</td>
+                                    <td class="volume">50мл</td>
+                                    <td  class="volume">100мл</td>
+                                    <td  class="volume">200мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Этот холодный кофе с апельсиновым или яблочным фрешем и карамелью не оставит никого равнодушным. А ты уже попровобал?</td>
+                                    <td class="coffee-price">3.50p</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                             <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Какао</td>
+                                    <td class="volume">200мл</td>
+                                    <td  class="volume">350мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Этот напиток любим с детства. Вспомните все самые приятные моменты своей жизни за чашечкой нашего какао. Подаётся с марджмеллоу</td>
+                                    <td class="coffee-price">1.50p</td>
+                                    <td class="coffee-price">2p</td>
+                                    <td class="coffee-price">3p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Горячий шоколад</td>
+                                    <td class="volume">50мл</td>
+                                    <td  class="volume">100мл</td>
+                                    <td  class="volume">250мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Окунитесь в бархатное наслождение, попробовав наш горячий шоколад. Это сладкий и густой напиток подарит вам незабываемые минуты шоколадного удавольствия.</td>
+                                    <td class="coffee-price">3p</td>
+                                    <td class="coffee-price">4p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="menu-sweet-content">
+                    <div class="modal-overlay modal-overlay-4">
+                    <div class="modal modal-4">
+    
+                    <a class="close-modal close-modal-4">
+                        <svg viewBox="0 0 20 20">
+                            <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                        </svg>
+                        </a>
+                        <div class="modal-content modal-content-4">
+                            <h5>Сладости</h5>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Мороженное:</td>
+                                    <td class="volume">Один шарик</td>
+                                    <td  class="volume">Два шарика</td>
+                                    <td  class="volume">Три шарика</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">
+                                            •Ванильное
+                                            •Шоколадное
+                                            •Клубника
+                                            •Мята
+                                            •Вишня
+                                            •Лимон-лайм
+                                            •Орехи
+                                            •Апельсин
+                                            •Крем-брюле
+                                            •Кленовый сироп
+                                            •Лесные ягоды
+                                    </td>
+                                    <td class="coffee-price">1.50p</td>
+                                    <td class="coffee-price">2p</td>
+                                    <td class="coffee-price">3p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Торт «Графские развалины»</td>
+                                    <td class="volume">цена за 100 грамм</td>                                    
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Вспомните забытые нотки этого знакомого с детва торта</td>
+                                    <td class="coffee-price">2.50p</td>
+                                </tr>
+                            </table>
+                            
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Тирамису</td>
+                                    <td class="volume">цена за 100 грамм</td>                                    
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Традиционный итальянский многослойный десерт</td>
+                                    <td class="coffee-price">3.50p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Чизкейк </td>
+                                    <td class="volume">цена за 100 грамм</td>                                    
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">
+                                        •	Классичекский
+                                        •	Шоколадный
+                                        •	Фруктовый 
+                                    </td>
+                                    <td class="coffee-price">2.5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Торт «Медовый»</td>
+                                    <td class="volume">цена за 100 грамм</td>                                    
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Этот десерт позволит вам насладиться гармоничным сочетанием медовых и ореховых ноток</td>
+                                    <td class="coffee-price">1.50p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Десерт «Нежность»</td>
+                                    <td class="volume">цена за 100 грамм</td>                                    
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Воздушный крем в этом десерте подарит вам истинное наслаждение</td>
+                                    <td class="coffee-price">3.50p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Пирожное «Трюфельно-шоколадное» </td>
+                                    <td class="volume">цена за 100 грамм</td>                                    
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Этот десерт для истинных любителей шоколада </td>
+                                    <td class="coffee-price">4p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Пирожное «Брауни» </td>
+                                    <td class="volume">цена за 100 грамм</td>                                    
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Классическая американская шоколадная выпечка, довольно простая в приготовлении, но невероятная по вкусу</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                         </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="menu-tea-content">
+                    <div class="modal-overlay modal-overlay-5">
+                    <div class="modal modal-5">
+    
+                    <a class="close-modal close-modal-5">
+                        <svg viewBox="0 0 20 20">
+                            <path fill="#000000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+                        </svg>
+                        </a>
+
+                        <div class="modal-content modal-content-5">
+                            <h5>Чай</h5>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Чёрный чай</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">500мл</td>
+                                    <td  class="volume">1000мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Классический чёрный чай для ценителей канонов. Оцените всю многогранность истенного чая. </td>
+                                    <td class="coffee-price">2p</td>
+                                    <td class="coffee-price">3.5p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Зелёный чай</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">500мл</td>
+                                    <td  class="volume">1000мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Классический зёленый чай. Освежает и тонизирует, заряжает энергией и легкостью.</td>
+                                    <td class="coffee-price">2p</td>
+                                    <td class="coffee-price">3.5p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Каркаде</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">500мл</td>
+                                    <td  class="volume">1000мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Интересный красный чай для ценителей необычных вкусов. Подаётся как горячим, так и холодным. </td>
+                                    <td class="coffee-price">2.50p</td>
+                                    <td class="coffee-price">3.50p</td>
+                                    <td class="coffee-price">5</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Жасминовый чай</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">500мл</td>
+                                    <td  class="volume">1000мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Извеснейший чай из цветков жасмина подарит вам хорошее настроение на вест день, а приятный жасминовый аромат подарит Вам атмосферу цветущего сада. </td>
+                                    <td class="coffee-price">2.50p</td>
+                                    <td class="coffee-price">3.50p</td>
+                                    <td class="coffee-price">5.50p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Цитрусовый микс</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">500мл</td>
+                                    <td  class="volume">1000мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Искустное сочетание классического чёрного чая и цитрусовых наполняет мир новыми красками. Цедра апельсина и грейпфрута застяваят Вас взглянутьна ваши чайные продпочтения по-новому.</td>
+                                    <td class="coffee-price">2.50p</td>
+                                    <td class="coffee-price">4p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Чай «Сенча»</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">500мл</td>
+                                    <td  class="volume">1000мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Один из видов классического чая с цветочными нотками. </td>
+                                    <td class="coffee-price">2.5p</td>
+                                    <td class="coffee-price">3p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">«Восточные сладости»</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">500мл</td>
+                                    <td  class="volume">1000мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Классический чёрный чай для ценителей канонов</td>
+                                    <td class="coffee-price">2.5p</td>
+                                    <td class="coffee-price">3.5p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">«Японские нотки»</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">500мл</td>
+                                    <td  class="volume">1000мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Классический чёрный чай для ценителей канонов</td>
+                                    <td class="coffee-price">2.5p</td>
+                                    <td class="coffee-price">3.5p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Глинтвейн (безалкогольный)</td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">400мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Безалкогольная версия согревающего коктейля. Поможет передать приятную атмосферу в любую погоду.</td>
+                                    <td class="coffee-price">3p</td>
+                                    <td class="coffee-price">4p</td>
+                                    <td class="coffee-price">5p</td>
+                                </tr>
+                            </table>
+                            <table class="tb-menu">
+                                <tr>
+                                    <td class="name-coffee">Глинтвейн </td>
+                                    <td class="volume">250мл</td>
+                                    <td  class="volume">400мл</td>
+                                    <td  class="volume">500мл</td>
+                                </tr>
+                                <tr>
+                                    <td classs="coffee-description">Самый знаменитый согревающий коктейль. Прекрасно подходит не только для уютных осенних вечеров, но и для любого хорошего вечера.</td>
+                                    <td class="coffee-price">4.50p</td>
+                                    <td class="coffee-price">5.50p</td>
+                                    <td class="coffee-price">6p</td>
+                                </tr>
+                            </table>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
+        
+         <script src='js/jquery.min.js'></script>
+         <script src="js/javascript.js"></script>
+        </main>
+         <footer class="center clearfix"> 
+         <section class="footer-adress">
+              <article> Кофейня-библиотека CoffeeBOOK<br>
+                 Адрес: г. Минск, ул. Белорусская д. 21<br>
+                 телефон: +375 (29) 218-43-59<br>
+             </article>
+         </section> 
+         <section class="footer-social">
+             <article>Узнавайте самые свежие новости в социальных сетях:</article>
+             <p class="social">
+                 <a class="social-btm " href="#"><img src="images/vk.png" title="Вконтакте" alt="Вконтакте" width="45px" height="45px"></a>
+                 <a class="social-btm " href="#"><img src="images/inst.png" title="Интстаграм" alt="Интстаграм" width="45px" height="45px"></a>
+                 <a class="social-btm " href="#"><img src="images/fb.png" title="Фейсбук" alt="Фейсбук" width="45px" height="45px"></a>
+             </p>
+         </section>
+         <section class="footer-autor">
+               <iframe frameborder="none" width="220px" src="css/autor.xml" ></iframe>
+         </section>
+        </footer>
+    </body>
+</html>

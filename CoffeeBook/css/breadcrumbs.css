@@ -1,0 +1,75 @@
+@font-face {
+font-family: "Vremena Medium Italic"; 
+src: url("fonts/Vremena Medium Italic.ttf") format("truetype"); 
+}
+ul{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ }
+#breadcrumbs{
+ overflow: hidden;
+ width: 100%;
+ }
+ 
+#breadcrumbs li{
+ float: left;
+ margin: 0 .5em 0 1em;
+ font-family: "Vremena Medium Italic";
+ font-size: 18px;
+ }
+ 
+#breadcrumbs a{
+ background:   rgb(87,43,8);
+ padding: .7em 1em;
+ float: left;
+ text-decoration: none;
+ color: #fff;
+ text-shadow: 0 1px 0 rgba(255,255,255,.5);
+ position: relative;
+ }
+ 
+#breadcrumbs a:hover{
+ background: rgb(191, 135, 67);
+ }
+ 
+#breadcrumbs a::before,
+ #breadcrumbs a::after{
+ content:'';
+ position:absolute;
+ top: 0;
+ bottom: 0;
+ width: 1em;
+ background:  rgb(87,43,8);
+ transform: skew(-10deg);
+ }
+ 
+#breadcrumbs a::before{
+ 
+left: -.5em;
+ border-radius: 5px 0 0 5px;
+ }
+ 
+#breadcrumbs a:hover::before{
+ background: rgb(191, 135, 67);
+ }
+ 
+#breadcrumbs a::after{
+ right: -.5em;
+ border-radius: 0 5px 5px 0;
+ }
+ 
+#breadcrumbs a:hover::after{
+ background: rgb(191, 135, 67) ;
+ }
+ 
+#breadcrumbs .current,
+ #breadcrumbs .current:hover{
+
+ background: none;
+ }
+ 
+#breadcrumbs .current::after,
+ #breadcrumbs .current::before{
+ content: normal;
+ }

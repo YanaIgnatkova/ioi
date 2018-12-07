@@ -1,0 +1,30 @@
+@font-face {
+font-family: "Crimson Text"; 
+src: url("fonts\Crimson Text.ttf") format("truetype"); 
+}
+@font-face {
+font-family: "Vremena Medium Italic"; 
+src: url("fonts/Vremena Medium Italic.ttf") format("truetype"); 
+} 
+
+TEXT {
+    display: block;
+    text-align: center;
+    margin: 10px;
+    margin-left:  auto;
+    margin-right: auto;
+    font-family: "Vremena Medium Italic";
+    font-size: 18px; 
+    color: #fff;
+} 
+STATUS, FIO, SPET, YEAR {
+    display: block;
+    text-align: center;
+    margin: 0px;
+    margin-left:  auto;
+    margin-right: auto;
+    font-family:serif;
+    font-size: 16px; 
+    color: #fff;
+    max-height: 20%;
+}
